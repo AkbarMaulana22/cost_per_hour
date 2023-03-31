@@ -1,0 +1,27 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "employe_id",
+        "type": "INT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "branch_id",
+        "type": "INT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "salary",
+        "type": "DECIMAL"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "join_date",
+        "type": "DATE"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "resign_date",
+        "type": "DATE"
+    }
+]
