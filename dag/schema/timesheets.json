@@ -1,0 +1,27 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "timesheet_id",
+        "type": "INT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "employee_id",
+        "type": "INT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "date",
+        "type": "DATE"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "checkin",
+        "type": "TIME"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "checkout",
+        "type": "TIME"
+    }
+]
